@@ -1,0 +1,11 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "privileged": true,
+  "forwardPorts": [6080],
+  "runArgs": ["--cap-add=SYS_ADMIN"],
+  "postCreateCommand": "pip3 install numpy && printf \"password\npassword\n\n\" | vncpasswd && git clone https://github.com/novnc/noVNC.git",
+  
+  "postStartCommand": "vncserver -xstartup \"cinnamon-session\" -rfbport 5900 && ./noVNC/utils/novnc_proxy --vnc 127.0.0.1:5900 --listen localhost:6080"
+}
