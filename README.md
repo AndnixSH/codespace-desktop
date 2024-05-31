@@ -1,7 +1,7 @@
 # Cinnamon Desktop On Github Codespace
 This configuration will install a Cinnamon desktop enviornment and automatically opens a VNC connection. To access VNC. open PORTS tab, open forwarded address, click on `vnc.html` and enter your password
 
-The default VNC password is just `password`. You can it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged. This makes it a lot secure
+The default VNC password is just `password`. You can change it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged. This makes it a lot secure
 
 The default keyboard layout is English (US). You can change it in Cinnamon settings
 
@@ -17,3 +17,6 @@ Using desktop enviornment on Codespace is generally allowed since Microsoft them
 
 # Screenshots
 
+![2024-05-31 20 36 02](https://github.com/AndnixSH/codespace-desktop/assets/40742924/efe23986-9024-457f-8e10-d04ac1898b18)
+
+![2024-05-31 20 35 27](https://github.com/AndnixSH/codespace-desktop/assets/40742924/5ddd627e-d48f-413c-a153-dff1173e75de)
