@@ -1,11 +1,11 @@
 # Cinnamon Desktop On Github Codespace
 This configuration will install a Cinnamon desktop enviornment and automatically opens a VNC connection. To access VNC. open PORTS tab, open forwarded address, click on `vnc.html` and enter your password
 
-The default VNC password is just `password`. You can change it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged. This makes it a lot secure
+The default VNC password is just `password`. You can change it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged in. This makes it a lot secure
 
 The default keyboard layout is English (US). You can change it in Cinnamon settings
 
-To run Windows app, use Wine: https://wiki.winehq.org/Ubuntu
+To run Windows app, install Wine: https://wiki.winehq.org/Ubuntu
 
 To unlock better machine types, file a ticket to Github: https://support.github.com/contact?tags=rr-codespaces%2Ccat_codespaces
 
